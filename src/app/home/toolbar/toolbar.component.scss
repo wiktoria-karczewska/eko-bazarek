@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mat-toolbar {
+  background-color: #46aa42;
+  color: #ffffff;
+}
+
+.toolbar-list {
+  display: flex;
+}
+
+.toolbar-buttons {
+  margin-left: auto;
+}
+
+.toolbar-button {
+  background-color: #46aa42;
+  color: inherit;
+  border: none;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+}
+
+.toolbar-icons {
+  margin-left: auto;
+  display: flex;
+  gap: 12px;
+}
+
+.toolbar-logo {
+  height: 42px;
+  width: 42px;
+}
+
+svg {
+  height: 24px;
+  width: 24px;
+}
