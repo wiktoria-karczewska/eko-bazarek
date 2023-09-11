@@ -1,0 +1,57 @@
+footer {
+  background-color: #412f22;
+  color: #ffffff;
+}
+
+.footer-icon {
+  padding: 86px 0 24px 0;
+  font-size: 64px;
+  display: block;
+  text-align: center;
+}
+
+.footer-desc {
+  text-align: center;
+}
+
+.footer-desc-uppercase {
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.footer-subscribe {
+  display: flex;
+  justify-content: center;
+  gap: 26px;
+  margin: 24px 0;
+}
+
+.footer-subscribe-button {
+  font-size: 14px;
+  color: #ffffff;
+  text-transform: uppercase;
+  background-color: #46aa42;
+  border: none;
+  border-radius: 2px;
+  padding: 14px 24px 12px;
+}
+
+.footer-subscribe-input {
+  background-color: #ffffff;
+  height: 42px;
+  width: 420px;
+  border-radius: 2px;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  gap: 36px;
+  padding: 24px 0;
+  border: 1px solid #464646;
+}
+
+.footer-copyright {
+  text-align: center;
+  padding: 12px 0;
+}
