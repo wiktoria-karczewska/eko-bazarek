@@ -7,8 +7,16 @@
     </p>
   </div>
   <div class="footer-subscribe">
-    <div class="footer-subscribe-input"></div>
-    <button class="footer-subscribe-button">subskrybuj</button>
+    <div class="footer-subscribe-input">
+      <input
+        type="text"
+        class="footer-subscribe-input-container"
+        [(ngModel)]="subscriberMail"
+      />
+    </div>
+    <button class="footer-subscribe-button" (click)="onSubscribe()">
+      subskrybuj
+    </button>
   </div>
   <div class="footer-nav">
     <span>O nas</span>

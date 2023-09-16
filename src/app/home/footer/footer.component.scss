@@ -41,6 +41,19 @@ footer {
   height: 42px;
   width: 420px;
   border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.footer-subscribe-input-container {
+  width: 100%;
+  margin: 10px;
+  border: none;
+}
+
+.footer-subscribe-input-container:focus {
+  outline: none;
 }
 
 .footer-nav {
